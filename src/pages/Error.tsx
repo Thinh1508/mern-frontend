@@ -20,13 +20,11 @@ const Error = (props: Props) => {
               Error <span style={{ color: "white" }}>&#40; &#41; &#123;</span>
               <br />
               <span style={{ color: "white" }}>
-                <span style={{ color: "#df6572", marginLeft: "20px" }}>
-                  message{" "}
-                </span>
+                <span className={styles.message}>message </span>
                 ="
                 <span style={{ color: "#9aca76" }}>page not found</span>";
                 <br />
-                &#125;;
+                <span style={{ marginRight: "30px" }}>&#125;;</span>
               </span>
             </p>
           </div>

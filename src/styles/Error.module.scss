@@ -22,13 +22,30 @@
     h1 {
       font-size: 200px;
       cursor: pointer;
+
+      @media (max-width: 550px) {
+        font-size: 100px;
+      }
     }
 
     p {
-      float: left;
-      margin-left: 70px;
+      margin-left: 50px;
       text-align: start;
       color: #77b6f9;
+
+      @media (max-width: 550px) {
+        margin: 0 0 0 0;
+        text-align: start;
+        margin-left: 30%;
+      }
+
+      .message {
+        color: #df6572;
+        margin-left: 10px;
+
+        @media (max-width: 550px) {
+        }
+      }
     }
   }
 }
